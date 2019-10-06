@@ -28,6 +28,7 @@ input[type = button]
 
 }
 
+
 /*Clases*/
 
     
@@ -45,6 +46,21 @@ input[type = button]
     text-align: right;
     color: black;
     background: white;
-   
 }
+
+#borrar
+{
+    background-color:darkgray;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    width: 40px;
+    padding: 16px 32px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 5px;
+
+}
+   
+
 
