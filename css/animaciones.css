@@ -1,0 +1,4 @@
+.mover:hover{
+    transform: translate(5px);
+    transition-duration: 2s;
+}
