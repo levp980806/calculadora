@@ -28,14 +28,7 @@ input[type = button]
 
 }
 
-
-/*Clases*/
-
-    
-
-
-/*Identificadores */
-#pantalla
+.pantalla
 {
     width: 90%;
     height: 50px;
@@ -47,6 +40,15 @@ input[type = button]
     color: black;
     background: white;
 }
+
+
+/*Clases*/
+
+    
+
+
+/*Identificadores */
+
 
 #borrar
 {

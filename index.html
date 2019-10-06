@@ -13,7 +13,7 @@
 
 
 <form name="calculadora">
-<input type="textfield" name ="resultado" value="" id="pantalla">
+<input type="textfield" name ="resultado" value="" class="pantalla" id="n1">
 <br>
 <input type ="button" value="7" onClick="document.calculadora.resultado.value+='7'" class="mover" >
 <input type ="button" value="8" onClick="document.calculadora.resultado.value+='8'" class="mover">
@@ -32,10 +32,16 @@
 <br>
 <input type ="button" value="/" onClick="document.calculadora.resultado.value+='/'" class="mover">
 <input type ="button" value="0" onClick="document.calculadora.resultado.value+='0'" class="mover">
-<input type ="button" value="^" onClick="document.calculadora.resultado.value+=''" class="mover">
+<input type ="button" value="^2" id="n1" onclick = "cuadrado()">
 <input type ="button" value="=" onClick="document.calculadora.resultado.value= eval(document.calculadora.resultado.value)">
 <br>
 <input type="reset" value="Del" id="borrar" class="mover">
+<script type="text/javascript">
+    function cuadrado(){
+        var num = document.getElementById("n1");
+        num.value = num.value * num.value;
+    }
+</script>
 
 
 
