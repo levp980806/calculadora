@@ -32,14 +32,22 @@
 <br>
 <input type ="button" value="/" onClick="document.calculadora.resultado.value+='/'" class="mover">
 <input type ="button" value="0" onClick="document.calculadora.resultado.value+='0'" class="mover">
-<input type ="button" value="^2" id="n1" onclick = "cuadrado()">
+<input type ="button" value="^2" id="n1" onclick = "cuadrado()" class="mover">
 <input type ="button" value="=" onClick="document.calculadora.resultado.value= eval(document.calculadora.resultado.value)">
 <br>
 <input type="reset" value="Del" id="borrar" class="mover">
+<input type ="button" value="1/x" id="n1" onclick = "inversa()" class="mover">
 <script type="text/javascript">
     function cuadrado(){
         var num = document.getElementById("n1");
         num.value = num.value * num.value;
+    }
+</script>
+
+<script type="text/javascript">
+    function inversa(){
+        var num = document.getElementById("n1");
+        num.value = 1/num.value;
     }
 </script>
 
